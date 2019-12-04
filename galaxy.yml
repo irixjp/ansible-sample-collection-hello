@@ -28,7 +28,7 @@ description: This is a sample collection
 # Either a single license or a list of licenses for content inside of a collection. Ansible Galaxy currently only
 # accepts L(SPDX,https://spdx.org/licenses/) licenses. This key is mutually exclusive with 'license_file'
 license:
-- Apache License Version 2.0
+- Apache-2.0
 
 # The path to the license file for the collection. This path is relative to the root of the collection. This key is
 # mutually exclusive with 'license'
@@ -47,13 +47,13 @@ tags:
 dependencies: {}
 
 # The URL of the originating SCM repository
-repository: http://example.com/repository
+repository: https://github.com/irixjp/ansible-sample-collection-hello
 
 # The URL to any online docs
-documentation: http://docs.example.com
+documentation: https://github.com/irixjp/ansible-sample-collection-hello/tree/master/docs
 
 # The URL to the homepage of the collection/project
-homepage: http://example.com
+homepage: https://github.com/irixjp/ansible-sample-collection-hello
 
 # The URL to the collection issue tracker
-issues: http://example.com/issue/tracker
+issues: https://github.com/irixjp/ansible-sample-collection-hello/issues
